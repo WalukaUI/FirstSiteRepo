@@ -65,24 +65,28 @@ h1{
 main{
     background-color: cyan;
 }
+#Plans{
+    background-color: rgb(122, 168, 170);
+}
 .plansBox{
     background-color: #f3f4ed;
     width: 150px;
     height: 200px;
-	border-radius:10px;
-	border:1px solid #4e6096;
+	border-radius:40px;
+	border:2px solid #4e6096;
 	display:inline-block;
 	color:#271616;
 	font-family: Arial, Helvetica, sans-serif;
 	padding:13px 30px;
+    margin: 50px 40px 50px;
+    align-content: center;
+    text-align: center;
 }
 
 
 
 
-#Plans{
-    background-color: cadetblue;
-}
+
 #Features{
     background-color: darkorange;
 }
