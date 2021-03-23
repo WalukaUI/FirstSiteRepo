@@ -3,9 +3,10 @@ body{
     margin: 0px;
 }
 header{
-    background-color:#f8f1f1;
+    background-color:#00ddff;
 }
 h1{
+    background-color: skyblue;
     font-style: italic;
     color: dodgerblue;
     padding-left: 20%;
