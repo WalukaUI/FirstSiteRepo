@@ -71,7 +71,7 @@ main{
 .plansBox{
     background-color: #f3f4ed;
     width: 150px;
-    height: 200px;
+    height: 250px;
 	border-radius:40px;
 	border:2px solid #4e6096;
 	display:inline-block;
@@ -82,10 +82,24 @@ main{
     align-content: center;
     text-align: center;
 }
-
-
-
-
+.BuyNow {
+    background: #7ceb57;
+    background-image: linear-gradient(to bottom, #7ceb57, #2bb868);
+    border:1px solid #4e6096;
+    border-radius: 20px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 26px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .BuyNow:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  
 
 #Features{
     background-color: darkorange;
