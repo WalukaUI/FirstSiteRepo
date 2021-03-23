@@ -57,7 +57,6 @@ h1{
     width: 74%;
     float: left;
 } 
-}
 .rightButtons{
     width: 25%;
     float: left;
@@ -66,14 +65,15 @@ main{
     background-color: cyan;
 }
 #Plans{
-    background-color: rgb(122, 168, 170);
+    background-image: linear-gradient(to bottom, #3fcbee ,  #c4d6be);
+    height: auto;
 }
 .plansBox{
-    background-color: #f3f4ed;
+    background-color: #a4ebf3;
     width: 150px;
     height: 250px;
 	border-radius:40px;
-	border:2px solid #4e6096;
+	border:1px solid #4e6096;
 	display:inline-block;
 	color:#271616;
 	font-family: Arial, Helvetica, sans-serif;
@@ -98,11 +98,23 @@ main{
     background: #3cb0fd;
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+  }
 #Features{
-    background-color: darkorange;
+    background-image: linear-gradient(to bottom, #c4d6be, #3fcbee);
 }
 .FeaturesBox{
-    
+    background-color: #f3f4ed;
+    width: 150px;
+    height: 250px;
+	border-radius:40px;
+	border:2px solid #4e6096;
+	display:inline-block;
+	color:#271616;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:13px 30px;
+    margin: 50px 40px 50px;
+    align-content: center;
+    text-align: center;
 }
 
 footer{
