@@ -54,17 +54,19 @@ h1{
     z-index: 1;
 }
 .leftButtons{
-    width: 74%;
+    
+    width: 70%;
     float: left;
 } 
 .rightButtons{
-    width: 25%;
-    float: left;
+    display: flex;
+    width: 30%;
 }
 main{
     background-color: cyan;
 }
 #Plans{
+    display: grid;
     background-image: linear-gradient(to bottom, #3fcbee ,  #c4d6be);
     height: auto;
 }
@@ -100,16 +102,12 @@ main{
     text-decoration: none;
   }
 #Features{
-    background-image: linear-gradient(to bottom, #c4d6be, #3fcbee);
+    background: linear-gradient(to bottom, #c4d6be, #3fcbee);
+    display: grid;
 }
 .FeaturesBox{
-    background-color: #f3f4ed;
     width: 150px;
-    height: 250px;
-	border-radius:40px;
-	border:2px solid #4e6096;
-	display:inline-block;
-	color:#271616;
+    height: 250px;;
 	font-family: Arial, Helvetica, sans-serif;
 	padding:13px 30px;
     margin: 50px 40px 50px;
@@ -119,4 +117,7 @@ main{
 
 footer{
     background-color: deepskyblue;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
 }
