@@ -12,6 +12,10 @@ h1{
     padding-top: 20px;;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+h3{
+    text-align: center;
+    padding-top: 30px;
+}
 .myButton {
     margin: 15px 3px 3px ;
     width: 150px;
