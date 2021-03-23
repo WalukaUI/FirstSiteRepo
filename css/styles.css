@@ -94,16 +94,17 @@ main{
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
-  
   .BuyNow:hover {
     background: #3cb0fd;
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
-  
-
 #Features{
     background-color: darkorange;
 }
+.FeaturesBox{
+    
+}
+
 footer{
     background-color: deepskyblue;
 }
